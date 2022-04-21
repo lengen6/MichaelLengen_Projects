@@ -1,0 +1,1 @@
+Requires nodejs and mongodb to run as well as the packages listed in the package.json file 

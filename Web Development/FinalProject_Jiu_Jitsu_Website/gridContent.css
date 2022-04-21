@@ -1,0 +1,103 @@
+
+  
+
+nav{
+    width: 90%;
+    height: 25%;
+    position: fixed top;
+    background-color: rgba(15, 218, 218, 0.8);
+    border:solid black 2px;
+   
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+   
+}
+li{
+    opacity: .65;
+    font-size: 2em;
+    display: inline;
+    
+}
+li:hover{
+    opacity: 1;
+}
+a {
+    color: white;
+    text-decoration: underline;
+    padding: 2%;
+}
+
+footer{
+    text-align: center;
+    width: 90%;
+    position: fixed bottom;
+    background-color: rgba(15, 218, 218, 0.8);
+    color: white;
+    font-size: 1.5em;
+    padding: 1%;
+    border:solid black 2px;
+    margin-top: 2%;
+}
+  body{
+      background-image: url(gridBackground.jpg);
+      font-family: 'Source Sans Pro', sans-serif;
+      margin-left: 12%;
+      opacity: .85;
+  }
+
+  header{
+      color: white;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+
+  article{
+      font-size: large;
+      background-color: rgb(50, 92, 102);
+      border: solid 5px  rgb(108, 64, 150);
+      padding: .5% 1%;
+      color: white;
+  }
+img{
+    width: 98%;   
+    border: solid 5px  rgb(108, 64, 150);
+}
+h2{
+    background-color: rgba(15, 218, 218, 0.8);
+    font-size: x-large;
+    color: white;
+}
+.floater{
+    display: block;
+}
+textarea{
+    margin-top: 20px;
+    margin-left: 31%;
+}
+
+
+@media only screen and (max-width: 950px) {
+    body {
+        margin-left: 10%;
+        width: 90%;
+
+        
+    }
+    }
+    #gridContainer{
+        grid-template-columns: 90%;
+    }
+    
+   
+    @media only screen and (min-width: 951px){
+        #gridContainer {
+            display: grid;
+            grid-template-columns: 45% 45%;
+            grid-gap: 15px;
+            text-align: center;
+        }
+
+    }

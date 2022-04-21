@@ -1,0 +1,15 @@
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\bin\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.exe
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\bin\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.deps.json
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\bin\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.runtimeconfig.json
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\bin\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.runtimeconfig.dev.json
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\bin\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.dll
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\bin\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.pdb
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.csprojAssemblyReference.cache
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator_MichaelLengen.Form1.resources
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.csproj.GenerateResource.cache
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.AssemblyInfoInputs.cache
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.AssemblyInfo.cs
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.csproj.CoreCompileInputs.cache
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.dll
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.pdb
+C:\Users\Michael\OneDrive - Lorain County Community College\Docs\College Folders\Fall 2021\CISS 222\FractionCalculator-MichaelLengen\obj\Debug\netcoreapp3.1\FractionCalculator-MichaelLengen.genruntimeconfig.cache
