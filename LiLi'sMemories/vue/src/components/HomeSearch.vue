@@ -21,7 +21,7 @@
         <div class="divTableBody">
           <div class="divTableRow" v-for="home in filteredHomes" v-bind:key="home.mlsNumber">
             <div class="divTableCell">
-                <img v-bind:src="home.imageName" />
+                <img v-bind:src="getImageURL(home.imageName)" />
             </div>
             <div class="divTableCell">{{home.mlsNumber}}</div>
             <div class="divTableCell">
@@ -40,26 +40,43 @@
 </template>
 
 <script>
+
+//import our HomeService.js
+import homeService from '../services/HomeService.js';
+
 export default {
     name: 'home-search',
     data() {
         return {
-           zipFilter: ''
+           zipFilter: '',
+           homes: []
 
         };
     },
     computed: {
         filteredHomes() {
-           const homes = this.$store.state.homes;
+           
 
-           return homes.filter(home => {
+           return this.homes.filter(home => {
                return this.zipFilter == '' ? true : this.zipFilter == home.address.zipCode;
            });
 
         }
     },
     methods: {
-        // would handle any events here...
+        // hack to load local images only
+        getImageURL(pic) {
+          return require('../assets/' + pic);
+        }
+    },
+    created() {
+        // created gets called whenever the component loads 
+        // great place to call webservices when you need initial data loaded
+        //what goes inside the then() is a function ==> what doe we want to do with the response
+        homeService.search().then(response => {
+              this.homes = response.data;   // response data contains my JSON - array of homes that came back from the server
+        });
+
     }
 
 }

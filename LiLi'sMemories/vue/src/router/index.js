@@ -4,6 +4,9 @@ import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
 import Register from '../views/Register.vue'
 import store from '../store/index'
+import SearchForZip from '../views/SearchForZip.vue'
+import Home from '../views/Home.vue'
+import AddAHome from '../views/AddAHome'
 
 Vue.use(Router)
 
@@ -20,6 +23,31 @@ const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+    {
+      path: "/",
+      name: "home",
+      component: Home,
+      meta: {
+        requiresAuth: false
+      }
+    },       
+    {
+      path: "/search",
+      name: "search",
+      component: SearchForZip,
+      meta: {
+        requiresAuth: false
+      }
+    },   
+    {
+      path: "/addHome",
+      name: "addHome",
+      component: AddAHome,
+      meta: {
+        requiresAuth: false
+      }
+    },      
+    
     {
       path: "/login",
       name: "login",

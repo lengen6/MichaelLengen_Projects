@@ -8,7 +8,7 @@
     </div>
 -->
     <the-header />
-    <home-search />
+    <router-view />
     <the-footer />
 
   </div>
@@ -18,7 +18,6 @@
 
 import TheFooter from './components/TheFooter.vue'
 import TheHeader from './components/TheHeader.vue'
-import HomeSearch from './components/HomeSearch.vue'
 
 export default {
 
@@ -26,7 +25,6 @@ export default {
   components: {
 
     TheHeader,
-    HomeSearch,
     TheFooter
   }
 }

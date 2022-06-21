@@ -5,7 +5,7 @@
            <router-link v-bind:to="{name: 'home'}">Home</router-link>
          <a href="#">About</a>
          <router-link v-bind:to="{name: 'search'}">Search Homes</router-link>
-         <a href="#">Add Home</a>
+         <router-link v-bind:to="{name: 'addHome'}">Add a Home</router-link>
       </nav>
   </div>
 </template>
