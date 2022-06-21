@@ -1,9 +1,8 @@
 BEGIN TRANSACTION;
 
-DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS users, memory_board;
 DROP SEQUENCE IF EXISTS seq_user_id;
-DROP TABLE IF EXISTS home;
-DROP TABLE IF EXISTS address;
+
 
 CREATE SEQUENCE seq_user_id
   INCREMENT BY 1
@@ -18,6 +17,18 @@ CREATE TABLE users (
 	password_hash varchar(200) NOT NULL,
 	role varchar(50) NOT NULL,
 	CONSTRAINT PK_user PRIMARY KEY (user_id)
+);
+
+CREATE TABLE memory_board (
+	board_id serial NOT NULL,
+	name varchar(300)
+);
+
+CREATE TABLE post (
+	post_id serial NOT NULL,
+	title varchar(300),
+	content varchar,
+	image_url varchar
 );
 
 INSERT INTO users (username,password_hash,role) VALUES ('user','$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC','ROLE_USER');

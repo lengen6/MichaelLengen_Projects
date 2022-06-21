@@ -81,7 +81,7 @@ Most of the functionality related to Security is located in the `/src/main/java/
 
 ### Authentication Controller
 
-There is a single controller in the `com.techelevator.controller` package called `AuthenticationController.java`.
+There is a single controller in the `com.littleLdevelopment.controller` package called `AuthenticationController.java`.
 
 This controller contains the `/login` and `/register` routes and works with the Vue starter as is. If you need to modify the user registration form, start here.
 
@@ -93,14 +93,14 @@ The authentication controller uses the `UserSqlDAO` to read and write data from 
 
 ### DAO integration tests
 
-`com.techelevator.dao.DAOIntegrationTest` has been provided for you to use as a base class for any DAO integration test. It initializes a Datasource for testing and manages rollback of database changes between tests.
+`com.littleLdevelopment.dao.DAOIntegrationTest` has been provided for you to use as a base class for any DAO integration test. It initializes a Datasource for testing and manages rollback of database changes between tests.
 
 The following is an example of extending this class for writing your own DAO integration tests:
 
 ```
-package com.techelevator.dao;
+package com.littleLdevelopment.dao;
 
-import com.techelevator.model.User;
+import com.littleLdevelopment.model.User;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
