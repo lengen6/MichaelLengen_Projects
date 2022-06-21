@@ -1,0 +1,4 @@
+1.  Add any new tables and initial data to the schema.sql file.
+2.  Do not modify any other script file.
+3.  To run:  'winpty sh create.sh' inside gitbash
+4.  Enter 'postgres1' as your password every time you are prompted. It will be several times. 
